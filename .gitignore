@@ -59,3 +59,6 @@ temp/
 
 # OS
 Thumbs.db
+
+# Sample docs are intentionally committed — real vendor docs go in docs/ and stay ignored
+!sample_docs/*.pdf
