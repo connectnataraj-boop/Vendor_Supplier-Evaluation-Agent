@@ -361,9 +361,9 @@ def run_pipeline(vendor_docs: list[dict], scoring_weights: dict | None = None) -
 
 if __name__ == "__main__":
     vendor_docs = [
-        {"vendor_name": "Vendor A", "file_path": "docs/vendor_a_quote.pdf"},
-        {"vendor_name": "Vendor B", "file_path": "docs/vendor_b_quote.pdf"},
-        {"vendor_name": "Vendor C", "file_path": "docs/vendor_c_quote.pdf"},
+        {"vendor_name": "Vendor A", "file_path": "sample_docs/vendor_a_quote.pdf"},
+        {"vendor_name": "Vendor B", "file_path": "sample_docs/vendor_b_quote.pdf"},
+        {"vendor_name": "Vendor C", "file_path": "sample_docs/vendor_c_quote.pdf"},
     ]
 
     for doc in vendor_docs:
