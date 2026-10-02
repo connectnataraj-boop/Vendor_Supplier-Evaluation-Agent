@@ -51,7 +51,6 @@ if run_clicked:
             "vendor_docs": vendor_docs,
             "scoring_weights": DEFAULT_SCORING_WEIGHTS,
         })
-    st.write("DEBUG — full result:", result)
     st.session_state.extracted_info = result.get("extracted_info", [])
     st.session_state.clarification_emails = result.get(
         "clarification_emails", [])
